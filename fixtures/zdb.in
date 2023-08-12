@@ -1,0 +1,308 @@
+bu12:
+    version: 5000
+    name: 'bu12'
+    state: 0
+    txg: 43637468
+    pool_guid: 3479012138537533102
+    errata: 0
+    hostname: 'bu12.example.com'
+    com.delphix:has_per_vdev_zaps
+    vdev_children: 3
+    vdev_tree:
+        type: 'root'
+        id: 0
+        guid: 3479012138537533102
+        create_txg: 4
+        children[0]:
+            type: 'raidz'
+            id: 0
+            guid: 6221724010367905896
+            nparity: 2
+            metaslab_array: 66
+            metaslab_shift: 38
+            ashift: 12
+            asize: 48009293332480
+            is_log: 0
+            create_txg: 4
+            com.delphix:vdev_zap_top: 35
+            children[0]:
+                type: 'disk'
+                id: 0
+                guid: 11804555628199413764
+                path: '/dev/disk/by-id/wwn-0x5000cca242daae59-part1'
+                devid: 'id1,sd@n5000cca242daae59/a'
+                phys_path: '/scsi_vhci/disk@g5000cca242daae59:a'
+                whole_disk: 1
+                DTL: 192593
+                create_txg: 4
+                com.delphix:vdev_zap_leaf: 36
+            children[1]:
+                type: 'disk'
+                id: 1
+                guid: 14811255447288370791
+                path: '/dev/disk/by-id/wwn-0x5000cca242da3d8c-part1'
+                devid: 'id1,sd@n5000cca242da3d8c/a'
+                phys_path: '/scsi_vhci/disk@g5000cca242da3d8c:a'
+                whole_disk: 1
+                DTL: 192592
+                create_txg: 4
+                com.delphix:vdev_zap_leaf: 37
+            children[2]:
+                type: 'disk'
+                id: 2
+                guid: 12863406276848383822
+                path: '/dev/disk/by-id/wwn-0x5000cca255cbe82a-part1'
+                devid: 'id1,sd@n5000cca255cbe82a/a'
+                phys_path: '/scsi_vhci/disk@g5000cca255cbe82a:a'
+                whole_disk: 1
+                DTL: 192591
+                create_txg: 4
+                com.delphix:vdev_zap_leaf: 38
+            children[3]:
+                type: 'disk'
+                id: 3
+                guid: 12186830491289289740
+                path: '/dev/disk/by-id/wwn-0x5000cca242d7d69f-part1'
+                devid: 'id1,sd@n5000cca242d7d69f/a'
+                phys_path: '/scsi_vhci/disk@g5000cca242d7d69f:a'
+                whole_disk: 1
+                DTL: 192590
+                create_txg: 4
+                com.delphix:vdev_zap_leaf: 39
+            children[4]:
+                type: 'disk'
+                id: 4
+                guid: 16305783534008442687
+                path: '/dev/disk/by-id/wwn-0x5000cca242d8a28c-part1'
+                devid: 'id1,sd@n5000cca242d8a28c/a'
+                phys_path: '/scsi_vhci/disk@g5000cca242d8a28c:a'
+                whole_disk: 1
+                DTL: 192589
+                create_txg: 4
+                com.delphix:vdev_zap_leaf: 40
+            children[5]:
+                type: 'disk'
+                id: 5
+                guid: 12635988307950539031
+                path: '/dev/disk/by-id/wwn-0x5000cca242d6354b-part1'
+                devid: 'id1,sd@n5000cca242d6354b/a'
+                phys_path: '/scsi_vhci/disk@g5000cca242d6354b:a'
+                whole_disk: 1
+                DTL: 192588
+                create_txg: 4
+                com.delphix:vdev_zap_leaf: 41
+            children[6]:
+                type: 'disk'
+                id: 6
+                guid: 8299950871082284441
+                path: '/dev/disk/by-id/wwn-0x5000cca242daa743-part1'
+                devid: 'id1,sd@n5000cca242daa743/a'
+                phys_path: '/scsi_vhci/disk@g5000cca242daa743:a'
+                whole_disk: 1
+                DTL: 192587
+                create_txg: 4
+                com.delphix:vdev_zap_leaf: 42
+            children[7]:
+                type: 'disk'
+                id: 7
+                guid: 7391138906978655633
+                path: '/dev/disk/by-id/wwn-0x5000cca242d8dac1-part1'
+                devid: 'id1,sd@n5000cca242d8dac1/a'
+                phys_path: '/scsi_vhci/disk@g5000cca242d8dac1:a'
+                whole_disk: 1
+                DTL: 192584
+                create_txg: 4
+                com.delphix:vdev_zap_leaf: 43
+        children[1]:
+            type: 'raidz'
+            id: 1
+            guid: 13263997397208758468
+            nparity: 2
+            metaslab_array: 64
+            metaslab_shift: 38
+            ashift: 12
+            asize: 48009293332480
+            is_log: 0
+            create_txg: 4
+            com.delphix:vdev_zap_top: 44
+            children[0]:
+                type: 'disk'
+                id: 0
+                guid: 13264624414407852468
+                path: '/dev/disk/by-id/wwn-0x5000cca242d8de99-part1'
+                devid: 'id1,sd@n5000cca242d8de99/a'
+                phys_path: '/scsi_vhci/disk@g5000cca242d8de99:a'
+                whole_disk: 1
+                DTL: 192581
+                create_txg: 4
+                com.delphix:vdev_zap_leaf: 45
+            children[1]:
+                type: 'disk'
+                id: 1
+                guid: 16767919711154364858
+                path: '/dev/disk/by-id/wwn-0x5000cca242d8eb4d-part1'
+                devid: 'id1,sd@n5000cca242d8eb4d/a'
+                phys_path: '/scsi_vhci/disk@g5000cca242d8eb4d:a'
+                whole_disk: 1
+                DTL: 192580
+                create_txg: 4
+                com.delphix:vdev_zap_leaf: 46
+            children[2]:
+                type: 'disk'
+                id: 2
+                guid: 8164685243070183180
+                path: '/dev/disk/by-id/wwn-0x5000cca242d8b695-part1'
+                devid: 'id1,sd@n5000cca242d8b695/a'
+                phys_path: '/scsi_vhci/disk@g5000cca242d8b695:a'
+                whole_disk: 1
+                DTL: 192579
+                create_txg: 4
+                com.delphix:vdev_zap_leaf: 47
+            children[3]:
+                type: 'disk'
+                id: 3
+                guid: 8033904809278846351
+                path: '/dev/disk/by-id/wwn-0x5000cca242d76f93-part1'
+                devid: 'id1,sd@n5000cca242d76f93/a'
+                phys_path: '/scsi_vhci/disk@g5000cca242d76f93:a'
+                whole_disk: 1
+                DTL: 192578
+                create_txg: 4
+                com.delphix:vdev_zap_leaf: 48
+            children[4]:
+                type: 'disk'
+                id: 4
+                guid: 10276416586228845607
+                path: '/dev/disk/by-id/wwn-0x5000cca232aae37c-part1'
+                devid: 'scsi-35000cca232aae37c-part1'
+                phys_path: 'pci-0000:03:00.0-sas-phy4-lun-0'
+                whole_disk: 1
+                DTL: 104709
+                create_txg: 4
+                com.delphix:vdev_zap_leaf: 104402
+                resilver_txg: 43631488
+            children[5]:
+                type: 'disk'
+                id: 5
+                guid: 11439577778650693998
+                path: '/dev/disk/by-id/wwn-0x5000cca242d87fa2-part1'
+                devid: 'id1,sd@n5000cca242d87fa2/a'
+                phys_path: '/scsi_vhci/disk@g5000cca242d87fa2:a'
+                whole_disk: 1
+                DTL: 192576
+                create_txg: 4
+                com.delphix:vdev_zap_leaf: 50
+            children[6]:
+                type: 'disk'
+                id: 6
+                guid: 9977471617084655848
+                path: '/dev/disk/by-id/wwn-0x5000cca232af36ac-part1'
+                devid: 'id1,sd@n5000cca232af36ac/a'
+                phys_path: '/pci@0,0/pci8086,1d18@1c,4/pci1000,3020@0/iport@1/disk@w5000cca232af36ad,0:a'
+                whole_disk: 1
+                DTL: 192574
+                create_txg: 4
+                com.delphix:vdev_zap_leaf: 51
+            children[7]:
+                type: 'disk'
+                id: 7
+                guid: 108664191575523554
+                path: '/dev/disk/by-id/wwn-0x5000cca242daaf3f-part1'
+                devid: 'id1,sd@n5000cca242daaf3f/a'
+                phys_path: '/scsi_vhci/disk@g5000cca242daaf3f:a'
+                whole_disk: 1
+                DTL: 192573
+                create_txg: 4
+                com.delphix:vdev_zap_leaf: 52
+        children[2]:
+            type: 'raidz'
+            id: 2
+            guid: 9496353629604632660
+            nparity: 2
+            metaslab_array: 62
+            metaslab_shift: 38
+            ashift: 12
+            asize: 42008131665920
+            is_log: 0
+            create_txg: 4
+            com.delphix:vdev_zap_top: 53
+            children[0]:
+                type: 'disk'
+                id: 0
+                guid: 1821389187235807594
+                path: '/dev/disk/by-id/wwn-0x5000cca242d867a6-part1'
+                devid: 'id1,sd@n5000cca242d867a6/a'
+                phys_path: '/scsi_vhci/disk@g5000cca242d867a6:a'
+                whole_disk: 1
+                DTL: 192572
+                create_txg: 4
+                com.delphix:vdev_zap_leaf: 54
+            children[1]:
+                type: 'disk'
+                id: 1
+                guid: 6241132968378803671
+                path: '/dev/disk/by-id/wwn-0x5000cca242d965ac-part1'
+                devid: 'id1,sd@n5000cca242d965ac/a'
+                phys_path: '/scsi_vhci/disk@g5000cca242d965ac:a'
+                whole_disk: 1
+                DTL: 192571
+                create_txg: 4
+                com.delphix:vdev_zap_leaf: 55
+            children[2]:
+                type: 'disk'
+                id: 2
+                guid: 7182896778077172874
+                path: '/dev/disk/by-id/wwn-0x5000cca255c5bf94-part1'
+                devid: 'id1,sd@n5000cca255c5bf94/a'
+                phys_path: '/pci@0,0/pci8086,1d18@1c,4/pci1000,3020@0/iport@2/disk@w5000cca255c5bf95,0:a'
+                whole_disk: 1
+                DTL: 192570
+                create_txg: 4
+                com.delphix:vdev_zap_leaf: 56
+            children[3]:
+                type: 'disk'
+                id: 3
+                guid: 16465598701440352137
+                path: '/dev/disk/by-id/wwn-0x5000cca255c754ec-part1'
+                devid: 'id1,sd@n5000cca255c754ec/a'
+                phys_path: '/pci@0,0/pci8086,3c08@3/pci1000,3020@0/iport@1/disk@w5000cca255c754ed,0:a'
+                whole_disk: 1
+                DTL: 192569
+                create_txg: 4
+                com.delphix:vdev_zap_leaf: 57
+            children[4]:
+                type: 'disk'
+                id: 4
+                guid: 13710813579637186481
+                path: '/dev/disk/by-id/wwn-0x5000cca232a89244-part1'
+                devid: 'id1,sd@n5000cca232a89244/a'
+                phys_path: '/pci@0,0/pci8086,3c08@3/pci1000,3020@0/iport@40/disk@w5000cca232a89245,0:a'
+                whole_disk: 1
+                DTL: 192568
+                create_txg: 4
+                com.delphix:vdev_zap_leaf: 58
+            children[5]:
+                type: 'disk'
+                id: 5
+                guid: 4361344504198733165
+                path: '/dev/disk/by-id/wwn-0x5000cca242d90905-part1'
+                devid: 'id1,sd@n5000cca242d90905/a'
+                phys_path: '/scsi_vhci/disk@g5000cca242d90905:a'
+                whole_disk: 1
+                DTL: 192567
+                create_txg: 4
+                com.delphix:vdev_zap_leaf: 59
+            children[6]:
+                type: 'disk'
+                id: 6
+                guid: 13471278457085824428
+                path: '/dev/disk/by-id/wwn-0x5000cca232b08a40-part1'
+                devid: 'id1,sd@n5000cca232b08a40/a'
+                phys_path: '/pci@0,0/pci8086,1d18@1c,4/pci1000,3020@0/iport@80/disk@w5000cca232b08a41,0:a'
+                whole_disk: 1
+                DTL: 108670
+                create_txg: 4
+                com.delphix:vdev_zap_leaf: 108667
+    features_for_read:
+        com.delphix:hole_birth
+        com.delphix:embedded_data
