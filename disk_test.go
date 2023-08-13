@@ -6,9 +6,9 @@ import (
 	"testing"
 )
 
-// test for parseDisk function
-func Test_parseDisk(t *testing.T) {
-	disk := parseDisk(`type: 'disk'
+// test for ParseDisk function
+func Test_ParseDisk(t *testing.T) {
+	disk := ParseDisk(`type: 'disk'
                 id: 0
                 guid: 11804555628199413764
                 path: '/dev/disk/by-id/wwn-0x5000cca242daae59-part1'

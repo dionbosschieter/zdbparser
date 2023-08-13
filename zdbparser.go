@@ -5,7 +5,7 @@ import (
 	"strings"
 )
 
-func parseDisksFromZdbOutput(scanner *bufio.Scanner) (disks []Disk) {
+func ParseDisksFromZdbOutput(scanner *bufio.Scanner) (disks []Disk) {
 	sectionBuffer := ""
 	sectionType := ""
 	previousIndentLevel := 0
@@ -17,7 +17,7 @@ func parseDisksFromZdbOutput(scanner *bufio.Scanner) (disks []Disk) {
 
 		if previousIndentLevel != indentLevel {
 			if sectionType == "disk" {
-				disks = append(disks, parseDisk(sectionBuffer))
+				disks = append(disks, ParseDisk(sectionBuffer))
 			}
 			sectionType = ""
 			sectionBuffer = ""

@@ -17,7 +17,7 @@ type Disk struct {
 	CreateTXG int    `yaml:"create_txg"`
 }
 
-func parseDisk(child string) (disk Disk) {
+func ParseDisk(child string) (disk Disk) {
 	lines := strings.Split(child, "\n")
 	for _, line := range lines {
 		line = strings.TrimSpace(line)

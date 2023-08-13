@@ -8,13 +8,13 @@ import (
 	"testing"
 )
 
-func Test_parseDisksFromZdbOutput(t *testing.T) {
+func Test_ParseDisksFromZdbOutput(t *testing.T) {
 	file, err := os.Open("fixtures/zdb.in")
 	require.NoError(t, err)
 	defer file.Close()
 
 	scanner := bufio.NewScanner(file)
-	disks := parseDisksFromZdbOutput(scanner)
+	disks := ParseDisksFromZdbOutput(scanner)
 	require.EqualValues(t, 23, len(disks))
 	assert.EqualValues(t, "disk", disks[0].Type)
 	assert.EqualValues(t, 0, disks[0].ID)
